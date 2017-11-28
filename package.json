@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/yuval-shubert/receipt-cruncher/issues"
   },
-  "homepage": "https://github.com/yuval-shubert/receipt-cruncher#readme"
+  "homepage": "https://github.com/yuval-shubert/receipt-cruncher#readme",
+  "dependencies": {
+    "restify": "^6.3.4",
+    "restify-clients": "^1.5.2"
+  }
 }

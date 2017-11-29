@@ -1,7 +1,7 @@
 var restify = require('restify');
 var TaggunClient = require("./taggun-client");
 
-const TAGGUN_API_KEY = "c2614c90d47811e7a18e7df8Ofel9a6e";
+const TAGGUN_API_KEY = "c2614c90d47811e7a18e7df80fe19a6e";
 const server = restify.createServer({
   name: 'myapp',
   version: '1.0.0'
@@ -41,4 +41,4 @@ server.listen(8080, function () {
 });
 */
 var taggunClient = new TaggunClient(TAGGUN_API_KEY);
-taggunClient.makeRequest("./one.jpg");
+taggunClient.makeRequest("./Research/receipts_examples/en_receipt_resturant.jpeg");
